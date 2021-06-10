@@ -34,6 +34,10 @@ onClick = { () => {
 ```
 - reducer.js , just copy and paste code from "INCREASE" function 
 
+
+### Redux-Dev-Extension 
+
+Check [Redux Devtools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
 ```
  const store = createStore(
    reducer, /* preloadedState, */
