@@ -44,3 +44,14 @@ Check [Redux Devtools Extension](https://github.com/zalmoxisus/redux-devtools-ex
 +  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
  );
 ```
+-------------------------------------------------
+- Note: When you deploy it on netlify , don't forget to update "build" in package.json 
+  
+```
+    "build": "CI= react-scripts build",
+```
+  
+- In public folder, create _redirects file and add  /* /index.html 200 
+  
+- Deployed on Netlify:
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/9411741c-7079-45d4-9521-18c7c48f2b7f/deploy-status)](https://app.netlify.com/sites/redux-shopping-cart-by-thiriaung/deploys) https://redux-shopping-cart-by-thiriaung.netlify.app/
