@@ -38,6 +38,8 @@ onClick = { () => {
 ### Redux-Dev-Extension 
 
 Check [Redux Devtools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
+
+Add this comment in App.js in order to use redux extension from Chrome
 ```
  const store = createStore(
    reducer, /* preloadedState, */
